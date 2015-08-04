@@ -71,11 +71,11 @@ D. How to use
 
 The DPR package consits of two modules: a sample extraction module (smt_mainProcess_construct_phraseDB) and a DPR probability generation module (smt_mainProcess_generatePhraseOption). The extraction module is used to extract all samples (phrase pairs) for training a DPR model, while the geneartion module can then be used to generate the DPR probabilities for different phrase pairs.
 
-1. Train a MOSES system
+1- Train a MOSES system
 
 Since the DPR model requires some files from MOSES, you need to train a MOSES system before training a DPR model. The MOSES user guide (http://www.statmt.org/moses_steps.html) will help you to do this step. 
 
-2. prerequisite
+2- prerequisite
 
 
 The DPR model requires the following files from a MOSES system:
@@ -124,7 +124,7 @@ A file named "myConfigulationFile" will then be generated, which contains all th
 	24) setp - the step size (learning rate) of the DPR model (default 0.05). See (Ni, et al., 2009) for details.
 	25) eTol - the error tolerance for training the DPR model (default 0.001). See (Ni, et al., 2009) for details.
 
-3. Generating the training samples for the DPR model
+3- Generating the training samples for the DPR model
 
 After filling the configulation file. Generating the training samples for the DPR model is rather easy, just execute the command
 
@@ -140,7 +140,7 @@ It will generate the following files for training the DPR model:
 	7) phraseTableFile - the file containing the extracted samples (phrase pairs) for the DPR model.
 	8) phraseTableFile.featureRelabel - the relabels of the ngram features.
 
-4. Training the DPR model and generating the DPR probabilities
+4- Training the DPR model and generating the DPR probabilities
 
 The final step is to execute the command
 
@@ -152,7 +152,7 @@ The following files will then be generated:
 	3) phraseOptionFile - the phrase options for the "TestFile" corpus (each line is a sentence).
 	4) phraseOptionFile.startPosition - the start position of each line in "phraseOptionFile".
 
-5. Integrating the DPR model into MOSES
+5- Integrating the DPR model into MOSES
 
 To integrate the DPR model into MOSES, you need to use the MOSES software package provided in the above link (as the author has modified some MOSES source code).  Meanwhile, the following lines should be added in "model/moses.ini"
 
@@ -169,7 +169,7 @@ the class for the DPR model (choose 3 or 5 depending on the DPR model trained)
 
 This will tell the MOSES decoder where the DPR-probability file is located and what is the weight for the DPR model.
 
-6. Minimal error-rating training (MERT)
+6- Minimal error-rating training (MERT)
 
 To use MERT, you need to use the MOSES scripts package provided in the above link (as the author has modified some source code). The execution is the same:
 
@@ -181,7 +181,7 @@ If you would like to switch on/off the DPR model or other reordering models, you
 
 The command tells MERT that the initial weight for the DPR model is 0.5 (you can also define weights for other parameters such as "d", "lm", "tm" and "w") and the range of the weight is between 0.1 and 1.5. Meanwhile, there are 5 weights needed tuning: d_1 (i.e. the wor distance-based reordering model), lm (the language model), tm (the phrase translation model), w (the word penalty) and wDPR (the DPR model). 
 
-7. Decoding
+7- Decoding
 
 When you obtain the tuned parameters for the MOSES decoder, use the following command to decode the test sentences:
 
