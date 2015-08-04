@@ -46,7 +46,7 @@ on Natural Language Processing of the Asian Federation of Natural Language
 Processing (ACL–IJCNLP 2009), pages 241–244, Singapore, 2009"
 *************************************************************
 
-3. Source code
+C. Source code
 
 The model is integrated into MOSES as a feature function. Therefore, you also need the MOSES software package to run the program. The MOSES software package including the DPR model (DPR_MOSES.zip) is available at the following location:
 
