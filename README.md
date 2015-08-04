@@ -37,11 +37,9 @@ POSSIBILITY OF SUCH DAMAGE.
 
 If you use this software package in your sientific work, please cite as
 
-"Y. Ni, C. Saunders, S. Szedmak, and M. Niranjan. Handling phrase reorderings for machine
-translation. In Proceedings of the joint conference of the 47th Annual Meeting of
-the Association for Computational Linguistics and the 4th International Joint Conference
-on Natural Language Processing of the Asian Federation of Natural Language
-Processing (ACL–IJCNLP 2009), pages 241–244, Singapore, 2009"
+1) Ni Y, Saunders C, Szedmak S, Niranjan M. Exploitation of machine learning techniques in modeling phrase movements for machine translation. Journal of Machine Learning Research. 2011;12:1-30.
+
+2) Ni Y, Saunders C, Szedmak S, Niranjan M. Handling phrase reorderings for machine translation. In Proceedings of the joint conference of the 47th Annual Meeting of the Association for Computational Linguistics and the 4th International Joint Conference on Natural Language Processing of the Asian Federation of Natural Language Processing. 2009.
 *************************************************************
 
 C. Source code
