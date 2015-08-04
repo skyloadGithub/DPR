@@ -1,6 +1,6 @@
 Distance phrase reordering (DPR) model for MOSES
 
-1. General description
+A. General description
 The distance phrase reordering (DPR) model mainly focuses on the application of machine learning (ML) techniques to a specific problem in machine translation: learning the grammatical rules and content dependent changes, which are simplified as phrase reorderings. It models the mentioned problem with a classification framework and aims at improving the fluency of machine translation. Different from the lexicalized reordering model used in MOSES (Koehn, et al., 2005), this model considers the sentence context as well as the relationships between phrase movements, by means of a newly emerging structured learning paradigm. As observed by the authors, the DPR model works well on some language pairs that contain many differences in word ordering (e.g. Chinese-to-English). 
 
 For more details, the readers are referred to the following paper: 
