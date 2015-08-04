@@ -48,7 +48,7 @@ C. Source code
 
 The model is integrated into MOSES as a feature function. Therefore, you also need the MOSES software package to run the program. The MOSES software package including the DPR model (DPR_MOSES.zip) is available at the following location:
 
-https://forge.ecs.soton.ac.uk/frs/?group_id=1083 
+https://github.com/skyloadGithub/DPR/DPR_MOSES.zip 
 
 Alternatively, the source code is also available via Subversion from Sourceforge, by executing the following commands:
 
