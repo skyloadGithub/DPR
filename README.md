@@ -77,6 +77,7 @@ Since the DPR model requires some files from MOSES, you need to train a MOSES sy
 
 2. prerequisite
 
+
 The DPR model requires the following files from a MOSES system:
 	1) the source/target word-class dictionary. After training a MOSES system, the two files are located at "./corpus/fr.vcb.classes" (and en.vcb.classes). Alternatively, you can use "mkcls" to train more accurate word-class dictionaries (e.g. by increasing training rounds, using different number of word classes, etc).
 	2) the word alignment file. The file is located at "./model/aligned.grow-diag-final-and".
@@ -195,6 +196,6 @@ When you compile the files or execute the commands and it reports errors, it mig
 
 delDots.pl your_program your_new_program
 
-F. Contact:
+F. Contact
 
 If you have any more problem or suggestion, please contact: Yizhao.Ni@googlemail.com
