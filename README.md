@@ -1,5 +1,4 @@
 Distance phrase reordering (DPR) model for MOSES
-=================================================================================================================================================
 
 1. General description
 
@@ -14,6 +13,7 @@ on Natural Language Processing of the Asian Federation of Natural Language
 Processing (ACL–IJCNLP 2009), pages 241–244, Singapore, 2009"
 
 2. Copyright
+ 
 *************************************************************
 Copyright (c) 2010, Yizhao Ni.
 All rights reserved.
@@ -198,4 +198,3 @@ delDots.pl your_program your_new_program
 6. Contact:
 
 If you have any more problem or suggestion, please contact: Yizhao.Ni@googlemail.com
-=================================================================================================================================================
